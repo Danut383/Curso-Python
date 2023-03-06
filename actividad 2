@@ -1,0 +1,9 @@
+def main():
+  horas = input("ingrese las horas \n")
+  tasa = input("ingrese la tasa \n")
+  pago = float(horas) * float(tasa)
+  print("pago " + str(pago))
+
+
+if __name__ == "__main__":
+  main()
