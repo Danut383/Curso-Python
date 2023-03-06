@@ -1,0 +1,7 @@
+def main():
+  nombre = input("ingresa tu nombre \n")
+  print("hola " + nombre)
+
+
+if __name__ == "__main__":
+  main()
