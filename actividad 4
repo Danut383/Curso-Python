@@ -1,0 +1,21 @@
+def main():
+  horas = input("ingrese las horas \n")
+  tasa = input("ingrese la tasa \n")
+  try:
+    horasf=float(horas)
+    tasaf=float(tasa)
+  except:
+      print("numero invalido")
+    
+  if horasf > 40:
+    print("overtime")
+    regular = horasf*tasaf
+    overtime= (horasf -40.0)*(tasaf *1.5)
+    pago=regular+overtime
+    print(pago)
+  else:
+    print("regular") 
+    pago = horasf*tasaf
+  print("pago " + str(pago))
+if __name__ == "__main__":
+  main()
