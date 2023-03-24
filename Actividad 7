@@ -1,0 +1,8 @@
+def main():
+  
+  with open("file.txt","r") as file:
+    for line in file:
+      print(line.upper())
+  
+if __name__=="__main__":
+  main()
