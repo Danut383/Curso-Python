@@ -1,0 +1,12 @@
+def main():
+  print("")
+  with open ("file.txt","r") as file:
+    for line in file:
+      line.rsplit()
+      wds=line.split()
+
+      if len(wds)<3 or wds[0] !='from':
+        continue
+      print(wds[2])
+if __name__=="__main__":
+  main()
