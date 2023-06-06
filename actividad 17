@@ -39,4 +39,4 @@ while True:
         s = u['status']['text']
         print('  ', s[:50])
 if __name__=="__main__":
-main()
+ main()
