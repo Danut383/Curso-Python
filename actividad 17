@@ -3,6 +3,8 @@ import twurl
 import json
 import ssl
 
+def main(): 
+
 # https://apps.twitter.com/
 # Create App and get the four strings, put them in hidden.py
 
@@ -36,3 +38,5 @@ while True:
             continue
         s = u['status']['text']
         print('  ', s[:50])
+if __name__=="__main__":
+main()
